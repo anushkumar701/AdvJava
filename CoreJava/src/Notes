@@ -1,0 +1,53 @@
+SpringBoot
+    Framework is a readymade architecture which consists of set of classes and interface.
+    Example: For Backend we have Springboot,hypernet,Spring
+             For Frontend we have Angular
+Why do we need collection framework in Java?
+    To store multiple objects or group objects together we can generally use arrays.
+    But Arrays has Some Limitation.
+
+    Limitation of Array:
+        1.Size of the array is fixed,We cannot reduce or increase dynamically during the execution of the program.
+        2.Array is a collection of homogenous elements.
+        3.Array Manipulation such as:
+            1.Removing an element from an array.
+            2.Adding the elemnt in between the array etc...
+            Requires complex logic to solve
+
+
+     Therefore,to avoid the limitation of the array we can store the group of objects or elements using different data structure such as
+        1.List
+        2.Set
+        3.Queue
+        4.dictionaries / maps
+
+Collection Framework:
+    It is a set of classes and interface (Hierarchies),which provides mechanism to store group of objects (elements) together.
+    It also provides mechanism to perform actions such as:
+    ( CRUD - Operations )
+    1.Create and add an element.
+    2.Access the Elements
+    3.Remove / Delete the elements
+    4.Search elements
+    5.Update Elements
+    6.Sort the elements
+
+D/B Array and Collection
+
+Array:                                          Collections:
+1.Fixed in size                                 1.Dynamic in Size
+2.Only accept homogennous types                 2.Accept both Homogenous and Hetrogenous types of data
+       of data
+3.No predefined Methods                         3.Many Predefined Methods.
+4.It accept voth primitive and                  4.Accepts  only Non primitive Data type.
+        Non primitive data types
+5.It does not support Generic                   5.It supports Generic
+
+
+@Interface
+#Class
+
+                           @ Iterable
+                               ^
+                               |
+                            Collection

@@ -1,0 +1,34 @@
+package Control_Stmt;
+
+import java.util.Scanner;
+
+public class LCMMethod {
+    public static int findLCM(int a, int b) {
+        int lcm = 1;
+
+        for (int i = 1; i <= a * b; i++) {
+            if (i % a == 0 && i % b == 0) {
+                lcm = i;
+                break;
+            }
+        }
+
+        return lcm;
+    }
+
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        int num2 = sc.nextInt();
+
+        int result = findLCM(num1, num2);
+
+        System.out.println("LCM of " + num1 + " and " + num2 + " is: " + result);
+
+        sc.close();
+    }
+}
