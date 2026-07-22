@@ -1,0 +1,12 @@
+# Eclipse files
+.metadata/
+.settings/
+bin/
+.classpath
+.project
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
