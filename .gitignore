@@ -7,14 +7,21 @@
 # VS Code
 .vscode/
 
-# IntelliJ
+# IntelliJ IDEA
 .idea/
 
-# Maven
+# Maven build files
 target/
 
-# Tomcat
+# Tomcat server configuration
 Servers/
 
-# Mac
+# macOS
 .DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
