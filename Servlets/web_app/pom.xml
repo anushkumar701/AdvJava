@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com</groupId>
-  <artifactId>servlet</artifactId>
+  <artifactId>web_app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>servlet Maven Webapp</name>
+  <name>web_app Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,24 +26,16 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
-    <!-- Source: https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-   <dependency>
+    <dependency>
      <groupId>javax.servlet</groupId>
      <artifactId>javax.servlet-api</artifactId>
      <version>3.1.0</version>
      <scope>provided</scope>
    </dependency>
-   <!-- Source: https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
-<dependency>
-    <groupId>com.mysql</groupId>
-    <artifactId>mysql-connector-j</artifactId>
-    <version>8.3.0</version>
-    <scope>compile</scope>
-</dependency>
   </dependencies>
 
   <build>
-    <finalName>servlet</finalName>
+    <finalName>web_app</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
