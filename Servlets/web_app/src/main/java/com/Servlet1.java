@@ -12,7 +12,7 @@ import javax.servlet.annotation.WebServlet;
 
 @WebServlet("/s1")
 public class Servlet1 extends GenericServlet {
-
+//getServletContext()
 	@Override
 	public void service(ServletRequest req, ServletResponse res)
 			throws ServletException, IOException {
